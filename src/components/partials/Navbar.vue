@@ -11,7 +11,7 @@
       </div>
 
       <div class="block md:hidden" @click="menu">
-        <img src="menu.png" width="40" class="mr-8" alt="menu">
+        <img src="https://i.ibb.co/v1Y6ZVL/menu.png" width="40" class="mr-8" alt="menu">
       </div>
 
       <div class="font-pupy text-xl fixed z-20 top-0 right-0 overflow-hidden h-screen bg-white flex flex-col justify-center items-center md:hidden transition-all" :class="isopen ? 'w-[85vw]' : 'w-0'">
