@@ -11,7 +11,7 @@
 
     <div class="mt-6 md:mt-0">
       <p class="font-pupy text-base md:text-lg ml-2 mb-2">Tekan atau sentuh text untuk menyalin</p>
-    <div class="mt-6 md:mt-0 w-[88vw] md:w-[340px] lg:w-[500px] xl:w-[700px] h-[400px] bg-[#2EC4B6] rounded-2xl transition-all hover:shadow-[5px_5px_2px_rgba(0,0,0,0.9)] shadow-[9px_9px_2px_rgba(0,0,0,0.9)] md:shadow-[15px_15px_2px_rgba(0,0,0,0.9)] overflow-y-scroll scrollbar-thin scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-thumb-custom scrollbar-track-custom-light ">
+    <div class="relative mt-6 md:mt-0 w-[88vw] md:w-[340px] lg:w-[500px] xl:w-[700px] h-[400px] bg-[#2EC4B6] rounded-2xl transition-all hover:shadow-[5px_5px_2px_rgba(0,0,0,0.9)] shadow-[9px_9px_2px_rgba(0,0,0,0.9)] md:shadow-[15px_15px_2px_rgba(0,0,0,0.9)] overflow-y-scroll scrollbar-thin scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-thumb-custom scrollbar-track-custom-light ">
       <p class="font-ubuntu p-5 text-lg"  @click="copy">Uwooooggghhhhhhhhhh Seeeeegggssssss {{ form.namawaifu || 'waifumu'}} Wangyyyy Bangeeetttsssss , Gua rela {{ form.aksi1 || 'Aksi 1' }} demi ngejilatin {{ form.bagian_tubuh || 'Bagian Tubuh' }} nya, Ngeliatin {{ form.bagian_tubuh2 || 'Bagian Tubuh 2' }} nya aja bikin gwe sange , uwogggggghh {{ form.namawaifu || 'Waifumuuuuu' }} , Gw Ingin lo cosplay jadi {{ form.cosplay || 'Maid' }} terus gw segsss brutalll sampe lumpuhhh</p>
       <div class="absolute top-0 bg-blue-400 p-4 rounded transition-all" :class="isCopy ? 'left-0' : '-left-[100px]'">
         <p class="font-pupy">Copied !</p>
